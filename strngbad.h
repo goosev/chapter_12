@@ -13,6 +13,7 @@ public:
     StringBad(const char * s);      //конструктор
     StringBad();                    //конструктор по умолчанию
     StringBad(StringBad & st);      //конструктор глубокого копирования
+    StringBad & StringBad::operator=(const StringBad & st);
     ~StringBad();                   //деструктор
     
     //Дружественная функция

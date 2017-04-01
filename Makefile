@@ -7,6 +7,6 @@ debug:clean
 stable:clean
 	$(CC) $(CFLAGS) -o stringbad main.cpp
 vegnews:clean
-	$(CC) $(CFLAGS) $(LDFLAGS) -o vegnews vegnews.cpp strngbad.cpp
+	$(CC) $(CFLAGS) $(LDFLAGS) -fpermissive -o vegnews vegnews.cpp strngbad.cpp
 clean:
 	rm -vfr *~ stringbad vegnews
