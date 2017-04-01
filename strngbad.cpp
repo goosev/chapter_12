@@ -41,7 +41,7 @@ StringBad::~StringBad()                             //необходимый д�
 {
     cout << "\"" << str << "\" object deleted, ";   //для отлакди
     --num_strings;                                  //является обязательным
-    cout << num_strings << " left" << endl;          //для отладки
+    cout << num_strings << " left" << endl;         //для отладки
     delete [] str;                                  //является обязательным
 }
 std::ostream & operator<<(std::ostream & os, const StringBad & st)

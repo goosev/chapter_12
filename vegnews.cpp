@@ -37,11 +37,11 @@ int main()
 void callme1(StringBad & rsb)
 {
     cout << "String passed by reference:" << endl;      //строка переданная по ссылке
-    cout << " \'" << rsb << "\"" << endl;
+    cout << " \"" << rsb << "\"" << endl;
 }
 
 void callme2(StringBad sb)
 {
     cout << "String passed by value:" << endl;          //строка переданная по значению
-    cout << " \'" << sb << "\"" << endl;
+    cout << " \"" << sb << "\"" << endl;
 }
