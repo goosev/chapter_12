@@ -1,0 +1,4 @@
+[Project]
+Name=chapter_12
+Manager=KDevCustomMakeManager
+VersionControl=kdevgit
