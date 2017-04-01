@@ -12,6 +12,7 @@ private:
 public:
     StringBad(const char * s);      //конструктор
     StringBad();                    //конструктор по умолчанию
+    StringBad(StringBad & st);      //конструктор глубокого копирования
     ~StringBad();                   //деструктор
     
     //Дружественная функция
